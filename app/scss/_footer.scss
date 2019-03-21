@@ -1,0 +1,102 @@
+.main-footer {
+  background-color: #7393f6;
+  padding: 190px 0 40px 0;
+  position: relative;
+
+  @include media-breakpoint-down(sm) {
+    padding: 100px 0 20px 0;
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    background: url("../img/footer-before.png") no-repeat;
+  }
+}
+
+.footer-card {
+  position: relative;
+
+  &:last-child {
+    &:after {
+      display: none;
+    }
+  }
+  
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 1px;
+    height: 85px;
+    background-color: #fff;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+
+  .logo {
+    margin-bottom: 30px;
+  }
+}
+
+.footer-txt {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 5px;
+  @include transition(.2s);
+
+  &:hover {
+    color: #ede4e4;
+    text-decoration: none;
+  }
+
+  &:last-child {
+    margin-bottom: 9px;
+  }
+}
+
+span.footer-txt {
+  @include media-breakpoint-down(sm) {
+    margin-top: 20px;
+  }
+}
+
+.footer-social {
+  &__link {
+    display: inline-block;
+    margin-right: 10px;
+    @include transition(.3s);
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 50px;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+// st -> sky travel
+
+$default-font: 'Montserrat', sans-serif;
+$st-text: #333;
+$st-dark-purple: #8072e7;
+$st-light-purple: #7393f6;
+
+$st-box-shadow: 13px -8px 29.75px 5.25px rgba(46, 67, 171, 0.13);
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
