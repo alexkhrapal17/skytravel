@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eec9940-9327-45d1-948e-4f878737334f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_homepage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
-    </list>
+    <list default="true" id="8eec9940-9327-45d1-948e-4f878737334f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -216,12 +208,12 @@
       <workItem from="1553193555702" duration="3216000" />
       <workItem from="1553196821847" duration="9131000" />
       <workItem from="1553270602426" duration="3565000" />
-      <workItem from="1553333546394" duration="1463000" />
+      <workItem from="1553333546394" duration="1714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34453000" />
+    <option name="totallyTimeSpent" value="34704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
