@@ -38,7 +38,7 @@
     height: 85px;
     background-color: #fff;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
       display: none;
     }
   }
@@ -57,7 +57,7 @@
   @include transition(.2s);
 
   &:hover {
-    color: #ede4e4;
+    color: #c6c3c3;
     text-decoration: none;
   }
 

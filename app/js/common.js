@@ -110,20 +110,22 @@ $(function() {
         }
     });
 
-    // close mobile menu on click
+
     if ($(window).width() < 767) {
+        // close mobile menu on click
         $('.main-nav, .nav-item').on('click', function (e) {
             e.preventDefault();
             $('.mobile-toggle').removeClass('open');
             $('.main-nav').removeClass('show');
         });
 
-        $('.gallery-grid').slick({
+        // mobile gallery
+        $('.gallery-slider.mobile .gallery-grid').slick({
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            arrows: false,
+            arrows: true,
             dots: false
         });
     }
