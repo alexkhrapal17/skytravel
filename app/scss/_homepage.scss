@@ -735,3 +735,25 @@ section.section-contacts {
     }
   }
 }
+
+.anim-image {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  width: 200px;
+  animation: anim 10s 1s ease-in-out forwards;
+
+  @include media-breakpoint-down(xs) {
+    right: 20px;
+  }
+}
+
+@keyframes anim {
+  0% {
+
+  }
+
+  100% {
+    transform: translate(200px, -170vh);
+  }
+}
